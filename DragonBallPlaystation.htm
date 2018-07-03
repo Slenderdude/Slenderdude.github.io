@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>Dragon Ball Games (Play Station)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+body {font-family: "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item{padding:16px;font-weight:bold}
+</style>
+<body>
+
+<link rel="icon"
+ href="DragonOrb.ico">
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="PlaystationLogo.jpg"><img src="PlaystationLogo.jpg" style="width:80%;"></a>
+  <a class="w3-bar-item w3-button w3-teal" href="DragonBallAssignment.htm">Go Back to main page by clicking this</a>
+  <a class="w3-bar-item w3-button" href="https://www.playstation.com/en-au/">By clicking this you can go to the Playsation Official Site</a>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+
+<header class="w3-container w3-theme" style="padding:64px 32px">
+  <h1 class="w3-xxxlarge">Dragon Ball Games for the PlayStation</h1>
+</header>
+
+<div class="w3-container" style="padding:32px">
+
+<h2>What Dragon Ball games were released for the PlayStation?</h2>
+
+<p>Below are the games and dates of the games that were released for the PlayStation</p>
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li> There is a variety of games for the Play Station, ranging from the first PlayStation to the most recent Play Station, Here is every game released for the PlayStation:
+ </li>
+</ul>
+
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li> Dragon Ball: Xenoverse, Dragon Ball: Fighter Z, Dragon Ball: Xenoverse 2, Dragon Ball Z: Budokai Tenkaichi 3, Dragon Ball Z: Battle of Z, Dragon Ball Z: Burst Limit, Dragon Ball Z: Budokai 3, Dragon Ball Z: Budokai 2, Dragon Ball Z: Budokai, Dragon Ball Z: Ultimate Tenkaichi,
+ <br> Dragon Ball: Ultimate Battle 22, Dragon Ball Z Sagas, Dragon Ball Z: Infinite World, Dragon Ball: Raging Blast 2, Dragon Ball Z: Budokai Tenkaichi 2, Dragon Ball: Raging Blast, Dragon Ball GT: Final Bout, Dragon Ball Z: Idainaru Dragon Ball Densetsu, Super Dragon Ball Z. 
+ </li>
+</ul>
+
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5qpztHeCgZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on s
+croll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+        document.getElementById("myIntro").classList.add("w3-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+        document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+    }
+}
+
+// Accordions
+function myAccordion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme", "");
+    }
+}
+</script>
+</body>
+</html> 

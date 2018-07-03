@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<title>Dragon Ball Movies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+body {font-family: "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item{padding:16px;font-weight:bold}
+</style>
+<body>
+
+<link rel="icon"
+ href="DragonOrb.ico">
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="DragonballZLogo1989.png"><img src="DragonballZLogo1989.png" style="width:80%;"></a>
+  <a class="w3-bar-item w3-button w3-teal" href="DragonBallAssignment.htm">Go Back to main page by clicking this</a>
+  <a class="w3-bar-item w3-button" href="https://en.wikipedia.org/wiki/List_of_Dragon_Ball_films">By clicking this you can go to the Wiki with all the Dragon Ball Movies</a>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+
+<header class="w3-container w3-theme" style="padding:64px 32px">
+  <h1 class="w3-xxxlarge">Dragon Ball Movies</h1>
+</header>
+
+<div class="w3-container" style="padding:32px">
+
+<h2>What Dragon Ball movies have been released?</h2>
+
+<p>Below are the movies that were released.</p>
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li> Dragon Ball Z: Battle of Gods , Dragon Ball Z: Resurrection of F , Dragon Ball Z: Broly - The Legendary Super Saiyan , Dragon Ball Z: Bardock - The Father of Goku , Dragon Ball Z: Fusion Reborn , Dragon Ball: Yo! Son Goku and His Friends Return , Dragon Ball: Plan to Eradicate the Super Saiyans , Dragon Ball Z: Wrath of the Dragon , Dragon Ball Z: Coolers Revenge , Dragon Ball GT: A Hero's Legacy , Dragon Ball Z: The Return of Cooler , Dragon Ball Z: Boujack Unbound , Dragon Ball Z: Super Android 13, Dragon Ball Z: Dead Zone , Dragon Ball: The Path to Power , Dragon Ball Z: The History of Trunks , Dragon Ball Z: Bio Broly , Dragon Ball Z: Broly - Second Coming , Dragon Ball Z: The Tree of Might , Dragon Ball Z the Movie: The World's Strongest , Dragon Ball Z: Lord Slug , Dragon Ball: Curse of the Blood Rubies , Dragon Ball: Mystical Adventure , Dragon Ball: Sleeping Princess in Devil's Castle and Dragon Ball Z: Gather Together! Goku's World.
+ </li>
+</ul>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sUY4Lyyp-aU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+        document.getElementById("myIntro").classList.add("w3-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+        document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+    }
+}
+
+// Accordions
+function myAccordion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme", "");
+    }
+}
+</script>
+</body>
+</html> 

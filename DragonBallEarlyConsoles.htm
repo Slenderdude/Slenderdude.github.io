@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>Dragon Ball Games (Early Consoles)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+body {font-family: "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item{padding:16px;font-weight:bold}
+</style>
+<body>
+
+<link rel="icon"
+ href="DragonOrb.ico">
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="Famicom.jpg"><img src="Famicom.jpg" style="width:80%;"></a>
+  <a class="w3-bar-item w3-button w3-teal" href="DragonBallAssignment.htm">Go Back to main page by clicking this</a>
+  <a class="w3-bar-item w3-button" href="https://en.wikipedia.org/wiki/Dragon_Ball_GT">By clicking this you can go to the Famicom wiki</a>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+
+<header class="w3-container w3-theme" style="padding:64px 32px">
+  <h1 class="w3-xxxlarge">Dragon Ball Games for the Early Consoles
+</h1>
+</header>
+
+<div class="w3-container" style="padding:32px">
+
+<h2>What Dragon Ball games were released for the Early Consoles?</h2>
+
+<p>Below are the games and dates of the games that were released for the Early Consoles</p>
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li> There is a variety of games for the Early Consoles, ranging from the earliest console to the most recent, Here is every game released for the early consoles:
+ </li>
+</ul>
+
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li> Dragon Ball: Dragon Daihikyō, Dragon Ball: Shenlong no Nazo, Dragon Ball: Le Secret du Dragon, Dragon Ball: Daimaō Fukkatsu, Dragon Ball 3: Goku Den, Dragon Ball Z: Kyôshū! Saiyan, Dragon Ball Z II: Gekishin Frieza, Dragon Ball Z: Super Saiya Densetsu, Dragon Ball Z III: Ressen Jinzōningen, Dragon Ball Z: Gekitō Tenkaichi Budokai, Dragon Ball Z: Super Butōden, Dragon Ball Z Gaiden: Saiyajin Zetsumetsu Keikaku, Dragon Ball Z: Super Butōden 2, Dragon Ball Z: Buyū Retsuden, Dragon Ball Z: Shin Saiyajin Zenmetsu Keikaku — Chikyū-Hen, Dragon Ball Z: Super Butōden 3, Dragon Ball Z: Ultime Menace, Dragon Ball Z: Idainaru Son Goku Densetsu, Dragon Ball Z Gaiden: Saiyajin Zetsumetsu Keikaku~Uchū-Hen, Dragon Ball Z: Super Goku Den — Totsugeki-Hen, Dragon Ball Z: Ultimate Battle 22, Dragon Ball Z: Super Goku Den — Kakusei-Hen, Dragon Ball Z: Shin Butōden, Dragon Ball Z: Hyper Dimension and Dragon Ball Z: Idainaru Dragon Ball Densetsu were released for th early console.
+ </li>
+</ul>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t9LiuUTB9k8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+        document.getElementById("myIntro").classList.add("w3-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+        document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+    }
+}
+
+// Accordions
+function myAccordion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme", "");
+    }
+}
+</script>
+</body>
+</html> 
